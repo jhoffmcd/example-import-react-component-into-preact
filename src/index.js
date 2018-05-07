@@ -10,7 +10,7 @@ const TestComp = () =>
 // MyModule throws "Module not found: Error: Can't resolve 'react' in..."
 render(
     <div>
-        <MyModule />,
+        <MyModule />
         <TestComp />
     </div>,
     document.body
